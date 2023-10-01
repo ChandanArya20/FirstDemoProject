@@ -10,6 +10,8 @@ public class MyController {
     public String testController(@RequestParam String name){
 
         System.out.println("RAm");
+        System.out.println("RAm");
+
         return "Good morning "+name;
     }
 
